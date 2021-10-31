@@ -22,5 +22,14 @@ class MyClass:
     def f():
         return 'whats up??'
 
-
 print(MyClass.vegetables)
+
+
+# experimenting with ternary operators
+a = 1
+b = 2
+
+print(1 if a > b else -1)
+
+print(1 if a > b else -1 if a < b else 0)
+
