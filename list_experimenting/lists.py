@@ -3,6 +3,9 @@ from random import seed
 import random
 random_number = random.randint(1, 5)
 print(random_number)
+
+if (random_number == 3):
+    print('ahhh')
 # working with lists
 
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
